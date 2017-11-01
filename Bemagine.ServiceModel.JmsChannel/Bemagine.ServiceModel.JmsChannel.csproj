@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bemagine.ServiceModel.Channels</RootNamespace>
+    <AssemblyName>Bemagine.ServiceModel.JmsChannel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>http://localhost/Bemagine.WcfEmsQueue/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Library\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;VERBOSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Library\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\ThirdParty\Log4Net\1.2.11\v3.5\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Behavior\AsyncOperationElement.cs" />
+    <Compile Include="Source\Behavior\AsyncOperationBehavior.cs" />
+    <Compile Include="Source\Behavior\QueueThrottle.cs" />
+    <Compile Include="Source\Behavior\QueueThrottlingBehavior.cs" />
+    <Compile Include="Source\Behavior\QueueThrottlingElement.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\IReliableRequestContext.cs" />
+    <Compile Include="Source\Channels\Binding\Transport\BindingPropertyDefaults.cs" />
+    <Compile Include="Source\Channels\Binding\Transport\BindingPropertyNames.cs" />
+    <Compile Include="Source\Channels\Binding\Transport\JmsTransportBindingElement.cs" />
+    <Compile Include="Source\Channels\Binding\Transport\JmsTransportBindingElementExtension.cs" />
+    <Compile Include="Source\Channels\Binding\Channel\ReliableRequestBindingElement.cs" />
+    <Compile Include="Source\Channels\Binding\Channel\ReliableRequestBindingElementExtension.cs" />
+    <Compile Include="Source\Channels\Binding\Channel\TraceBindingElement.cs" />
+    <Compile Include="Source\Channels\Binding\Channel\TraceBindingElementExtension.cs" />
+    <Compile Include="Source\Channels\Jms\IJmsTransportContext.cs" />
+    <Compile Include="Source\Channels\Jms\JmsTransportBase.cs" />
+    <Compile Include="Source\Channels\Jms\JmsTransportContext.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\HeartbeatGraph.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\HeartbeatManager.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\HeartbeatTransport.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\IHeartbeatManager.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequest.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestChannel.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestChannelBase.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestFactory.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestHeader.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestListener.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestManager.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestMessageType.cs" />
+    <Compile Include="Source\Channels\ReliableRequest\ReliableRequestProperties.cs" />
+    <Compile Include="Source\Channels\Trace\TraceChannel.cs" />
+    <Compile Include="Source\Channels\Trace\TraceChannelBase.cs" />
+    <Compile Include="Source\Channels\Trace\TraceChannelFactory.cs" />
+    <Compile Include="Source\Channels\Trace\TraceChannelListener.cs" />
+    <Compile Include="Source\Channels\Transport\JmsChannelBase.cs" />
+    <Compile Include="Source\Channels\Transport\JmsChannelFactory.cs" />
+    <Compile Include="Source\Channels\Transport\JmsChannelListener.cs" />
+    <Compile Include="Source\Channels\Transport\JmsDuplexChannel.cs" />
+    <Compile Include="Source\Channels\Transport\JmsInputChannel.cs" />
+    <Compile Include="Source\Channels\Transport\JmsOutputChannel.cs" />
+    <Compile Include="Source\Channels\Transport\JmsTransport.cs" />
+    <Compile Include="Source\Channels\Transport\IJmsChannelManager.cs" />
+    <Compile Include="Source\Channels\Transport\MessageCompressor.cs" />
+    <Compile Include="Source\Behavior\AsyncOperationContext.cs" />
+    <Compile Include="Source\Channels\Utility\ChannelDefaults.cs" />
+    <Compile Include="Source\Channels\Utility\ChannelManagerBaseEx.cs" />
+    <Compile Include="Source\Channels\Utility\ChannelUtility.cs" />
+    <Compile Include="Source\Channels\Utility\MessageUtility.cs" />
+    <Compile Include="Source\Utility\AsyncResult.cs" />
+    <Compile Include="Source\Utility\InputQueue.cs" />
+    <Compile Include="Source\Utility\LogUtility.cs" />
+    <Compile Include="Source\Utility\StringEx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bemagine.JMS\Bemagine.ServiceModel.Jms.csproj">
+      <Project>{3C31722A-114F-419E-8F3E-5753097BDED5}</Project>
+      <Name>Bemagine.ServiceModel.Jms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bemagine.ServiceModel.EmsJmsWrapper\Bemagine.ServiceModel.EmsJmsWrapper.csproj">
+      <Project>{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B}</Project>
+      <Name>Bemagine.ServiceModel.EmsJmsWrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

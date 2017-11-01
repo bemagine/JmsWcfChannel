@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{822BFBAD-91A3-4E62-8DA0-7A15348668FC}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bemagine.ServiceModel.JmsChannel/Source/Channels/ReliableRequest/HeartbeatManager.cs">
+    <Files>
+      <File FileName="Bemagine.ServiceModel/Source/Behavior/NetDataContractFormat.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel/Source/Behavior/PerformanceMonitorBehavior.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel/Source/Behavior/ServiceFaultContract.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel/Source/Monitoring/ServicePerformanceCounters.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.EmsJmsWrapper/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.EmsJmsWrapper/Source/Connection/EmsConnection.cs" Line="84" Column="26" />
+      <File FileName="Bemagine.JMS/Source/Utility/SafeProxy.cs" Line="37" Column="25" />
+      <File FileName="Bemagine.ServiceModel/Source/PublishSubscribe/PubSubContractValidator.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.JMS/Source/Connection/IConnection.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.JMS/Source/Connection/IConnectionFactory.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.JMS/Source/Enumeration/AcknowledgeMode.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.JMS/Source/Message/IMessage.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.JMS/Source/Message/IBytesMessage.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Behavior/QueueThrottlingBehavior.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Behavior/QueueThrottlingElement.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Channel/ReliableRequestBindingElement.cs" Line="30" Column="87" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Channel/ReliableRequestBindingElementExtension.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Channel/TraceBindingElement.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Transport/BindingPropertyDefaults.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Transport/BindingPropertyNames.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Transport/JmsTransportBindingElement.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Binding/Transport/JmsTransportBindingElementExtension.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/Jms/IJmsTransportContext.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/ReliableRequest/IReliableRequestContext.cs" Line="25" Column="22" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/ReliableRequest/HeartbeatGraph.cs" Line="1" Column="1" />
+      <File FileName="Bemagine.ServiceModel.JmsChannel/Source/Channels/ReliableRequest/HeartbeatManager.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Projects.Tests.Bemagine.ServiceModel.JmsChannel.Test PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

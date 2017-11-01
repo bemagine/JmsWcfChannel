@@ -1,0 +1,82 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel", "Bemagine.ServiceModel\Bemagine.ServiceModel.csproj", "{CA0EB55A-19E5-4F54-8CCB-9D6E39486E62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.JmsChannel", "Bemagine.ServiceModel.JmsChannel\Bemagine.ServiceModel.JmsChannel.csproj", "{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.EmsJmsWrapper", "Bemagine.ServiceModel.EmsJmsWrapper\Bemagine.ServiceModel.EmsJmsWrapper.csproj", "{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.Jms", "Bemagine.JMS\Bemagine.ServiceModel.Jms.csproj", "{3C31722A-114F-419E-8F3E-5753097BDED5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E46C4A20-25D4-4802-9136-D91F6C2B9008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{B95B7098-CFF3-42B9-9773-15E9BBFE2C3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.MockJmsProvider", "Bemagine.ServiceModel.MockJmsProvider\Bemagine.ServiceModel.MockJmsProvider.csproj", "{AE9E0277-20AF-4FBC-B849-50214B44E00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{5DE46B3F-1EF6-45BF-B51D-AC4D1316149A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.Tests", "ServiceModel.Tests\Bemagine.ServiceModel.Tests.csproj", "{8C2CE657-3CDD-4C84-B11F-EA77406C4709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.JmsChannel.Tests", "Bemagine.ServiceModel.JmsChannel.Tests\Bemagine.ServiceModel.JmsChannel.Tests.csproj", "{C3770AB2-365F-46A0-82FD-6EAEE68D1842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wrappers", "Wrappers", "{00B920D0-C518-4F3B-8AC4-D7989BA5E66B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bemagine.ServiceModel.JmsChannel.Test", "Bemagine.ServiceModel.JmsChannel.Test\Bemagine.ServiceModel.JmsChannel.Test.csproj", "{822BFBAD-91A3-4E62-8DA0-7A15348668FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA0EB55A-19E5-4F54-8CCB-9D6E39486E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0EB55A-19E5-4F54-8CCB-9D6E39486E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0EB55A-19E5-4F54-8CCB-9D6E39486E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0EB55A-19E5-4F54-8CCB-9D6E39486E62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C31722A-114F-419E-8F3E-5753097BDED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C31722A-114F-419E-8F3E-5753097BDED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C31722A-114F-419E-8F3E-5753097BDED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C31722A-114F-419E-8F3E-5753097BDED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE9E0277-20AF-4FBC-B849-50214B44E00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE9E0277-20AF-4FBC-B849-50214B44E00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE9E0277-20AF-4FBC-B849-50214B44E00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE9E0277-20AF-4FBC-B849-50214B44E00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C2CE657-3CDD-4C84-B11F-EA77406C4709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C2CE657-3CDD-4C84-B11F-EA77406C4709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C2CE657-3CDD-4C84-B11F-EA77406C4709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C2CE657-3CDD-4C84-B11F-EA77406C4709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3770AB2-365F-46A0-82FD-6EAEE68D1842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3770AB2-365F-46A0-82FD-6EAEE68D1842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3770AB2-365F-46A0-82FD-6EAEE68D1842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3770AB2-365F-46A0-82FD-6EAEE68D1842}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822BFBAD-91A3-4E62-8DA0-7A15348668FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822BFBAD-91A3-4E62-8DA0-7A15348668FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822BFBAD-91A3-4E62-8DA0-7A15348668FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822BFBAD-91A3-4E62-8DA0-7A15348668FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B95B7098-CFF3-42B9-9773-15E9BBFE2C3B} = {5DE46B3F-1EF6-45BF-B51D-AC4D1316149A}
+		{00B920D0-C518-4F3B-8AC4-D7989BA5E66B} = {5DE46B3F-1EF6-45BF-B51D-AC4D1316149A}
+		{E46C4A20-25D4-4802-9136-D91F6C2B9008} = {5DE46B3F-1EF6-45BF-B51D-AC4D1316149A}
+		{3C31722A-114F-419E-8F3E-5753097BDED5} = {B95B7098-CFF3-42B9-9773-15E9BBFE2C3B}
+		{B8EB029C-2CF4-49FC-AD5C-CE249596EBAD} = {B95B7098-CFF3-42B9-9773-15E9BBFE2C3B}
+		{CA0EB55A-19E5-4F54-8CCB-9D6E39486E62} = {B95B7098-CFF3-42B9-9773-15E9BBFE2C3B}
+		{AE9E0277-20AF-4FBC-B849-50214B44E00A} = {00B920D0-C518-4F3B-8AC4-D7989BA5E66B}
+		{8CFF0994-4F63-496F-8399-F7DB4DFD2F0B} = {00B920D0-C518-4F3B-8AC4-D7989BA5E66B}
+		{8C2CE657-3CDD-4C84-B11F-EA77406C4709} = {E46C4A20-25D4-4802-9136-D91F6C2B9008}
+		{C3770AB2-365F-46A0-82FD-6EAEE68D1842} = {E46C4A20-25D4-4802-9136-D91F6C2B9008}
+		{822BFBAD-91A3-4E62-8DA0-7A15348668FC} = {E46C4A20-25D4-4802-9136-D91F6C2B9008}
+	EndGlobalSection
+EndGlobal
